@@ -1,0 +1,198 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1300px) {
+  #masthead .menu-item a {
+    font-size: 14px;
+  }
+  #masthead .header-button {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #masthead .menu-item {
+    margin: 0 5px;
+  }
+  #logo {
+    width: 190px !important;
+    margin-right: 0;
+  }
+  .c-dn-noigi .icon-box-img img {
+    scale: 1.5;
+  }
+  .c-banner {
+    height: unset !important;
+  }
+  .c-cau-hoi .accordion span {
+    font-size: 18px;
+  }
+
+  .c-cau-hoi .accordion .accordion-inner {
+    margin-bottom: 28px;
+  }
+
+  .c-cau-hoi .accordion .accordion-inner p {
+    font-size: 18px;
+  }
+
+  .c-cau-hoi .accordion .toggle {
+    top: 5px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #masthead #logo {
+    width: 200px;
+  }
+  .c-title,
+  .c-banner .c-title,
+  .c-bao-gia .c-title,
+  .c-title .section-title-main {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .c-thong-tin .col-inner p {
+    font-size: 16px;
+  }
+  .c-dn-noigi .ckh-circle .icon-box-img {
+    width: 60px !important;
+  }
+  .c-kh-duocgi .ckh-circle .icon-box-img img {
+    width: 25px !important;
+  }
+  .c-kh-duocgi .ckh-circle .icon {
+    width: 60px !important;
+    height: 60px;
+  }
+  .c-kh-duocgi .ckh-circle {
+    background-size: 45%;
+  }
+  .c-kh-duocgi .ckh-circle .large-4 .icon-box:nth-child(1).text-left,
+  .c-kh-duocgi .ckh-circle .large-4 .icon-box:nth-child(5).text-left {
+    margin-left: 0;
+  }
+  .c-kh-duocgi .ckh-circle .large-4 .icon-box:nth-child(3).text-left {
+    margin-left: 20px;
+  }
+  .c-kh-duocgi .ckh-circle .icon-box-text h3,
+  .c-kh-duocgi .ckh-circle .ckh-content .title {
+    font-size: 16px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 849px) {
+  .c-title,
+  .c-banner .c-title,
+  .c-bao-gia .c-title,
+  .c-title .section-title-main {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .c-quytrinh .cqt-content .section-title-main {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .c-dn-noigi .from_the_blog_excerpt {
+    padding: 75px 30px;
+  }
+  .c-dn-noigi .icon-box {
+    padding: 15px 30px;
+  }
+  .c-cau-hoi .accordion .accordion-title {
+    padding-right: 30px;
+  }
+  .c-kh-duocgi .ckh-circle .icon-box-left .icon-box-img + .icon-box-text {
+    padding-left: 1em;
+  }
+  .c-kh-duocgi .ckh-circle .large-4 .icon-box:nth-child(3).text-left {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .c-banner .text-inner p strong {
+    font-size: 20px;
+  }
+  .c-banner .text-inner p {
+    font-size: 14px;
+  }
+  .c-kh-duocgi .ckh-circle .icon-box-img {
+    width: 40px !important;
+  }
+  .c-kh-duocgi .ckh-circle .icon {
+    width: 40px !important;
+    height: 40px;
+  }
+  .c-kh-duocgi .ckh-circle .icon-box-img img {
+    width: 20px !important;
+  }
+  .c-kh-duocgi .ckh-circle .icon-box-left .icon-box-img + .icon-box-text {
+    padding-left: 10px;
+  }
+  .c-kh-duocgi .ckh-circle .large-4 .icon-box:nth-child(3).text-left {
+    margin-left: 0;
+  }
+  .c-kh-duocgi .ckh-circle .large-4 .icon-box-right:nth-child(3) {
+    padding-right: 10px;
+  }
+  .c-kh-duocgi .ckh-circle .icon-box-text h3,
+  .c-kh-duocgi .ckh-circle .ckh-content .title {
+    font-size: 14px;
+  }
+  .c-kh-duocgi .ckh-circle .large-4 .icon-box:nth-child(1).text-left,
+  .c-kh-duocgi .ckh-circle .large-4 .icon-box:nth-child(5).text-left {
+    margin-left: -24px;
+  }
+  .c-cau-hoi .accordion span,
+  .c-cau-hoi .accordion .accordion-inner p {
+    font-size: 14px;
+  }
+
+  .c-cau-hoi .accordion .accordion-title,
+  .c-cau-hoi .accordion .accordion-inner {
+    margin-bottom: 16px;
+  }
+
+  .c-cau-hoi .accordion .accordion-inner {
+    margin-top: -8px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .c-kh-duocgi .ckh-circle {
+    background-size: 50%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 549px) {
+  .c-title,
+  .c-banner .c-title,
+  .c-bao-gia .c-title,
+  .c-title .section-title-main {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .c-banner .img {
+    width: 100% !important;
+  }
+  .c-dn-noigi .text h3 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .c-thong-tin .col-inner p {
+    font-size: 14px;
+  }
+  .c-thong-tin .col-inner {
+    padding: 10px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
